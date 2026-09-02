@@ -20,6 +20,8 @@
      https://github-readme-stats.vercel.app/api/top-langs/?username=agentics-dev&layout=compact&theme=tokyonight&hide_border=true
 --------------------------------------------------------------------- -->
 
+<div align="right"><b>English</b> · <a href="README.zh-CN.md">简体中文</a> · <a href="README.zh-TW.md">繁體中文</a></div>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:3B82F6,100:06B6D4&height=200&section=header&text=Hi%2C%20I%27m%20agentics-dev%20%F0%9F%91%8B&fontSize=40&fontColor=ffffff&animation=fadeIn&desc=Full-stack%20developer%20%C2%B7%20Websites%20%C2%B7%203D%20Web%20%C2%B7%20AI%20Agent%20Skills&descSize=16&descAlignY=62" alt="header" width="100%"/>
 
 <div align="center">
