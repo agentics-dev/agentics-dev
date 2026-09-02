@@ -30,12 +30,19 @@
   </a>
 </div>
 
+<div align="center">
+  <a href="https://general-agentics-galaxy.pages.dev">
+    <img src="https://img.shields.io/badge/%F0%9F%8C%90_Portfolio-general--agentics--galaxy-6366F1?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Portfolio — General Agentics"/>
+  </a>
+</div>
+
 ## 🧭 About me
 
 - 🌐 I design and ship **multilingual, production-grade websites** — i18n, SEO, performance and Vercel deploys included.
 - 🧊 I explore **3D on the web** with Three.js — product showcases, interactive studios and small playable worlds.
 - 🤖 I author **AI agent skills**: website review (11-dimension audit), full-stack site building, secure coding checklists, financial translation and WeChat mini-program builds.
 - 💼 I also build for the **family-office / financial** space — content platforms and publishing pipelines.
+- 🪐 Visit our agency showcase — **General Agentics · Five Business Galaxies**: [general-agentics-galaxy.pages.dev](https://general-agentics-galaxy.pages.dev)
 - ⚡ This profile was assembled the fast way, with a **GPRM-compatible** component stack — see the fast-track section below to remix it yourself.
 
 ## 📊 GitHub statistics

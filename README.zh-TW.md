@@ -12,12 +12,19 @@
   </a>
 </div>
 
+<div align="center">
+  <a href="https://general-agentics-galaxy.pages.dev">
+    <img src="https://img.shields.io/badge/%F0%9F%8C%90_%E4%BD%9C%E5%93%81%E9%9B%86-general--agentics--galaxy-6366F1?style=for-the-badge&logo=cloudflare&logoColor=white" alt="作品集 — General Agentics"/>
+  </a>
+</div>
+
 ## 🧭 關於我
 
 - 🌐 我設計並開發**多語言、生產級網站**——i18n、SEO、效能優化與 Vercel 部署一條龍。
 - 🧊 我探索**網頁 3D**——用 Three.js 打造產品展示、互動式工作室與小型可玩世界。
 - 🤖 我編寫 **AI Agent 技能**：11 維度網站審查、全端網站構建、安全編碼清單、金融翻譯與微信小程式構建。
 - 💼 我也為**家族辦公室 / 金融**領域構建服務——內容平台與發布流水線。
+- 🪐 歡迎參觀我們的工作室展示站——**General Agentics · 五大業務星系**：[general-agentics-galaxy.pages.dev](https://general-agentics-galaxy.pages.dev)
 - ⚡ 本主頁用 **GPRM 同款**元件快速搭建——見下方「快速通道」自己動手改造。
 
 ## 📊 GitHub 統計
