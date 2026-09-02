@@ -3,10 +3,21 @@
    GitHub Profile README Maker (GPRM) generates:
      · capsule-render  → animated wave header / footer
      · readme-typing-svg → animated tagline
-     · github-readme-stats, streak-stats, profile-trophy → live stats
-     · skillicons.dev + shields.io → tech stack badges
+     · live stats cards, shields.io + skillicons badges → tech & stats
    Rebuild or restyle it visually in minutes at:
    https://gprm.rahuldkjain.github.io  (username: agentics-dev)
+---------------------------------------------------------------------
+
+   NOTE ON STAT CARDS: the classic github-readme-stats / profile-trophy
+   shared instances were down (503/402) when this profile shipped, so
+   the live cards below use currently-healthy equivalents:
+     · github-profile-summary-cards (vn7n24fzkq)
+     · streak-stats.demolab.com
+     · ghchart.rshah.org (contribution heatmap)
+     · shields.io dynamic JSON badges (GitHub REST API)
+   To switch back to the classics, swap the stats block for:
+     https://github-readme-stats.vercel.app/api?username=agentics-dev&show_icons=true&theme=tokyonight&hide_border=true
+     https://github-readme-stats.vercel.app/api/top-langs/?username=agentics-dev&layout=compact&theme=tokyonight&hide_border=true
 --------------------------------------------------------------------- -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:3B82F6,100:06B6D4&height=200&section=header&text=Hi%2C%20I%27m%20agentics-dev%20%F0%9F%91%8B&fontSize=40&fontColor=ffffff&animation=fadeIn&desc=Full-stack%20developer%20%C2%B7%20Websites%20%C2%B7%203D%20Web%20%C2%B7%20AI%20Agent%20Skills&descSize=16&descAlignY=62" alt="header" width="100%"/>
@@ -23,13 +34,23 @@
 - 🧊 I explore **3D on the web** with Three.js — product showcases, interactive studios and small playable worlds.
 - 🤖 I author **AI agent skills**: website review (11-dimension audit), full-stack site building, secure coding checklists, financial translation and WeChat mini-program builds.
 - 💼 I also build for the **family-office / financial** space — content platforms and publishing pipelines.
-- ⚡ This profile was assembled the fast way, with a **GPRM-compatible** component stack — see the note at the bottom to remix it yourself.
+- ⚡ This profile was assembled the fast way, with a **GPRM-compatible** component stack — see the fast-track section below to remix it yourself.
 
 ## 📊 GitHub statistics
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=agentics-dev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=agentics-dev&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=320" alt="Top languages"/>
+
+![public repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fagentics-dev&query=%24.public_repos&label=public%20repos&logo=github&style=for-the-badge&color=6366F1)
+![followers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fagentics-dev&query=%24.followers&label=followers&logo=github&style=for-the-badge&color=3B82F6)
+![total commits](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fcommits%3Fq%3Dauthor%3Aagentics-dev&query=%24.total_count&label=total%20commits&logo=github&style=for-the-badge&color=06B6D4)
+
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=agentics-dev&theme=tokyonight" alt="Profile details" width="49%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=agentics-dev&theme=tokyonight" alt="Stats" width="49%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=agentics-dev&theme=tokyonight" alt="Repos per language" width="49%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=agentics-dev&theme=tokyonight" alt="Most commit language" width="49%"/>
 </div>
 
 <div align="center">
@@ -37,7 +58,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=agentics-dev&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=8&no-bg=true" alt="Trophies"/>
+  <img src="https://ghchart.rshah.org/409BA5/agentics-dev" alt="Contribution heatmap" width="100%"/>
 </div>
 
 ## 🛠️ Tech stack
@@ -58,7 +79,7 @@
 
 </div>
 
-<!-- 🐍 Contribution snake — regenerate with .github/workflows/snake.yml (or edit this profile at https://gprm.rahuldkjain.github.io) -->
+<!-- 🐍 Contribution snake — auto-regenerated daily by .github/workflows/snake.yml (or edit this profile at https://gprm.rahuldkjain.github.io) -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/agentics-dev/agentics-dev/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/agentics-dev/agentics-dev/output/github-contribution-grid-snake.svg"/>
@@ -70,8 +91,8 @@
 Want to restyle everything in a few clicks? This layout is a **GPRM** layout:
 
 1. Open [**GitHub Profile README Maker**](https://gprm.rahuldkjain.github.io) and enter `agentics-dev`.
-2. In **Add-ons**, tick *github-stats*, *streak-stats*, *top-langs*, *profile-trophy*, *dynamic-capsule-render* and *typing SVG*.
-3. Pick a theme (this profile uses **tokyonight**), paste your badges, then copy the generated markdown over `README.md`.
+2. In **Add-ons**, tick *typing SVG*, *dynamic capsule-render (header/footer)*, *streak-stats*, *top-langs* and *github-stats* — then paste in the badges and cards already used here.
+3. Pick a theme (this profile uses **tokyonight** + an indigo→cyan gradient) and copy the generated markdown over `README.md`.
 
 ---
 
